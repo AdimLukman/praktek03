@@ -23,6 +23,15 @@ public class SepadaAksi {
         sm.cetakInfo();
         System.out.println("Jenis \t"+ sm.getJenisMotor());
         sm.throttle();
+        
+        SepedaGunung sg = new SepedaGunung();
+        sg.setMerk("Cobra");
+        sg.setWarna("Coklat");
+        sg.setHarga(10000);
+        sg.setJenisSG("Tinjak");
+        sg.cetakInfo();
+        System.out.println("Jenis \t"+sg.getJenisSG());
+        sg.throtle();
     }
     
 }
